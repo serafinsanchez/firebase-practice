@@ -1,0 +1,9 @@
+---
+description: 
+globs: **/*.{ts,tsx,js,jsx,css}
+---
+
+- Use utility-first approach for consistent and maintainable styles.
+- Create custom components with `@apply` directive for reusable styles.
+- Optimize your CSS bundle size by using the `purge` option to remove unused styles.
+- Implement responsive design using Tailwind's responsive utility classes.

@@ -1,0 +1,8 @@
+---
+description: Best practices for using Firebase in web applications
+globs: **/*.{ts,tsx,js,jsx}
+---
+- Use Firebase Security Rules to protect your data and ensure proper access control.
+- Implement offline support with Firebase's offline persistence feature.
+- Use Firebase Functions for server-side logic to keep client-side code lightweight.
+- Optimize performance by batching writes and using transactions for complex operations.

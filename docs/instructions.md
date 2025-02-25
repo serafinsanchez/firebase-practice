@@ -1,5 +1,7 @@
 Below is a detailed Product Requirements Document (PRD) for a Blog Platform built with Next.js and Firebase. This document is intended to be unambiguous and provide a clear roadmap for the engineering team.
 
+**Note: This project has been initialized and pushed to GitHub. The repository is available at: https://github.com/serafinsanchez/firebase-practice**
+
 ---
 
 ## 1. Product Overview
@@ -62,7 +64,7 @@ Develop a fully functional blog platform where users can register, create, edit,
 
 2. **Read/Display Posts:**
    - **Homepage Listing:**  
-     - Display a list of published posts with title, excerpt, published date, and a “Read More” link.
+     - Display a list of published posts with title, excerpt, published date, and a "Read More" link.
      - Optionally implement pagination or infinite scrolling.
    - **Single Post View:**  
      - Display full content of the blog post.
@@ -103,7 +105,7 @@ Develop a fully functional blog platform where users can register, create, edit,
 
 3. **Comment Moderation:**
    - Admin users can delete or hide inappropriate comments.
-   - Optionally, include a “report comment” feature for regular users.
+   - Optionally, include a "report comment" feature for regular users.
 
 ### D. Admin Panel
 
@@ -128,7 +130,7 @@ Develop a fully functional blog platform where users can register, create, edit,
    - Implement caching strategies where appropriate.
 
 2. **Scalability:**  
-   - Use Firebase’s scalable services.
+   - Use Firebase's scalable services.
    - Ensure Next.js pages are optimized for high traffic.
 
 3. **Security:**  
@@ -173,7 +175,7 @@ Develop a fully functional blog platform where users can register, create, edit,
 
 2. **Blog Post CRUD:**
    - **Create Post:**
-     - Build a “New Post” page with form fields.
+     - Build a "New Post" page with form fields.
      - Integrate rich text or markdown editor.
      - Set up image upload component (integrated with Firebase Storage).
      - Implement API route to create posts in Firestore.
@@ -184,7 +186,7 @@ Develop a fully functional blog platform where users can register, create, edit,
      - Create dynamic route for individual post pages.
      - Fetch post data and render full post details.
    - **Update Post:**
-     - Create an “Edit Post” page, pre-populated with existing data.
+     - Create an "Edit Post" page, pre-populated with existing data.
      - Implement API route for updating posts.
    - **Delete Post:**
      - Add delete functionality with confirmation dialog.

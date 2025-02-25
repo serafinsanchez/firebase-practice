@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "firebase-practice"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "firebase-practice-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
